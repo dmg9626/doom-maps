@@ -1,0 +1,5 @@
+INSTRUCTIONS
+
+1: install gzdoom
+2: add DOOM2.wad to the gzdoom WADs folder
+3: run my_wad.wad (easiest way: drag the wad file onto the gzdoom.exe executable)
