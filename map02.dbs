@@ -1,0 +1,153 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		defaultwalltexture = "BRONZE1";
+		overridemiddletexture = false;
+		defaultceiltexture = "STONE6";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\drew\\Repos\\Consumers\\doom2.wad";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		viewpositiony = 196.4754f;
+		viewpositionx = 3233.522f;
+		customceilheight = 128;
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 1;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 1;
+						spacing = 0;
+						frontside = true;
+						singlesectors = true;
+						distinctsectors = false;
+						singledirection = false;
+						distinctbaseheights = true;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 16;
+						applyceilingmod = true;
+						ceilingmod = 16;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "BROWNPIP";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "BROWNPIP";
+						lowerunpegged = true;
+					}
+				}
+			}
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512f;
+					outerright = 0f;
+					outertop = 512f;
+					outerbottom = 0f;
+				}
+			}
+		}
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0f;
+			backscaley = 100;
+			gridrotate = 0f;
+			backscalex = 100;
+			gridoriginx = 0f;
+			gridsize = 8f;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.4423986f;
+		defaulttoptexture = "BRONZE1";
+		overridebottomtexture = false;
+		useresourcesinreadonlymode = false;
+		defaultbottomtexture = "BRONZE1";
+		defaultfloortexture = "FLAT1_2";
+		overrideceilheight = false;
+		overridebrightness = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsety_mid = 1;
+				offsetx_mid = 1;
+				offsety_top = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+			}
+			
+			sector
+			{
+				ypanningceiling = 1;
+				yscalefloor = 1;
+				rotationfloor = 17;
+				xpanningfloor = 1;
+				lightceiling = 0;
+				rotationceiling = 17;
+				xpanningceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				ypanningfloor = 1;
+				xscalefloor = 1;
+			}
+			
+			thing
+			{
+				renderstyle = 2;
+			}
+		}
+	}
+}

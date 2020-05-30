@@ -1,3 +1,5 @@
 # ignore doom2 wad - shouldn't be sharing this lol
 doom2.wad
 
+# ignore .wad.backup# files (# = backup number)
+*.wad.backup*
